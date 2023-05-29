@@ -28,11 +28,11 @@ BootstrapCard.propTypes = {
 
 ReactDOM.render(
 	<BootstrapCard
-		title={"Paul Mccartney"}
-		description={"Paul Mccartney"}
-		buttonLabel={"patata"}
-		buttonUrl={"https://www.google.es/search"}
-		imageUrl={"https://ih1.redbubble.net/image.2135620122.9997/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg"}
+		title="Paul Mccartney"
+		description="Paul Mccartney"
+		buttonLabel="patata"
+		buttonUrl="https://www.google.es/search"
+		imageUrl="https://ih1.redbubble.net/image.2135620122.9997/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg"
 	/>,
 	document.querySelector("#myDiv")
 );
