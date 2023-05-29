@@ -26,14 +26,5 @@ BootstrapCard.propTypes = {
 	// 2) add here the new properties into the proptypes object
 };
 
-ReactDOM.render(
-	<BootstrapCard
-		title={"Paul Mccartney"}
-		description={"Paul Mccartney"}
-		buttonLabel={"patata"}
-		buttonUrl={"https://www.google.es/search"}
-		imageUrl={"https://ih1.redbubble.net/image.2135620122.9997/poster,504x498,f8f8f8-pad,600x600,f8f8f8.jpg"}
-	/>,
-	document.querySelector("#myDiv")
-);
+ReactDOM.render(<BootstrapCard />, document.getElementById("#mydiv"));
 // 3) Use ReactDOM to add the component into then DOM element #myDiv
